@@ -56,12 +56,12 @@ const Navbar = () => {
       >
         <img src="/images/onstream2.png" className="h-4 lg:h-7" alt="Logo" />
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
-          <NavbarItem label="Home" active />
-          <NavbarItem label="Series" />
-          <NavbarItem label="Films" />
-          <NavbarItem label="New & Popular" />
-          <NavbarItem label="My List" />
-          <NavbarItem label="Browse by Languages" />
+          <NavbarItem label="Vardhan's Favorites" active />
+          <NavbarItem label="Valorant" />
+          <NavbarItem label="Overwatch" />
+          {/* <NavbarItem label="L̶e̶a̶g̶u̶e̶ o̶f̶ L̶e̶g̶e̶n̶d̶s̶" /> */}
+          {/* <NavbarItem label="My List" /> */}
+          {/* <NavbarItem label="Browse by Languages" /> */}
         </div>
         <div
           onClick={toggleMobileMenu}

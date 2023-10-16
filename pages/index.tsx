@@ -46,3 +46,5 @@ const Home = () => {
 };
 
 export default Home;
+
+// div className="relative h-full w-full bg-[url('/images/onstream_bg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover"
