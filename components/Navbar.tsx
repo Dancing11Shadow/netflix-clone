@@ -58,10 +58,10 @@ const Navbar = () => {
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem label="Vardhan's Favorites" active />
           <NavbarItem label="Valorant" />
-          <NavbarItem label="Overwatch" />
-          {/* <NavbarItem label="L̶e̶a̶g̶u̶e̶ o̶f̶ L̶e̶g̶e̶n̶d̶s̶" /> */}
-          {/* <NavbarItem label="My List" /> */}
-          {/* <NavbarItem label="Browse by Languages" /> */}
+          <NavbarItem
+            label="Overwatch"
+            onClick={() => alert("GIVE ME JOB PLEASE.🥺👉👈")}
+          />
         </div>
         <div
           onClick={toggleMobileMenu}

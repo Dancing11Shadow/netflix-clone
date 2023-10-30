@@ -10,7 +10,13 @@ import Input from "@/components/Input";
 
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
-
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log(context);
   if (session) {
     return {
       redirect: {
@@ -19,7 +25,13 @@ export async function getServerSideProps(context: NextPageContext) {
       },
     };
   }
-
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log("Lmao");
+  // console.log(session);
   return {
     props: {},
   };
@@ -39,6 +51,10 @@ const Auth = () => {
       currentVariant === "login" ? "register" : "login"
     );
   }, []);
+
+  // const yoo = useCallback(() => {
+  //   alert("For login details contact harshvardhan11042002@gmail.com");
+  // }, []);
 
   const login = useCallback(async () => {
     try {
@@ -93,7 +109,7 @@ const Auth = () => {
               <Input
                 id="email"
                 type="email"
-                label="Email address or phone number"
+                label="Email address"
                 value={email}
                 onChange={(e: any) => setEmail(e.target.value)}
               />
