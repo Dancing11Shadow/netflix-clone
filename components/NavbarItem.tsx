@@ -26,10 +26,10 @@ import React from "react";
 interface NavbarItemProps {
   label: string;
   active?: boolean;
-  onClick?: () => void;
+  lmaov?: () => void;
 }
 
-const NavbarItem: React.FC<NavbarItemProps> = ({ label, active, onClick }) => {
+const NavbarItem: React.FC<NavbarItemProps> = ({ label, active, lmaov }) => {
   return (
     <div
       className={
@@ -37,7 +37,7 @@ const NavbarItem: React.FC<NavbarItemProps> = ({ label, active, onClick }) => {
           ? "text-white cursor-default"
           : "text-gray-200 hover:text-gray-300 cursor-pointer transition"
       }
-      onClick={onClick}
+      onClick={lmaov}
     >
       {label}
     </div>

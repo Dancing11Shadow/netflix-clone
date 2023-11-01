@@ -60,7 +60,7 @@ const Navbar = () => {
           <NavbarItem label="Valorant" />
           <NavbarItem
             label="Overwatch"
-            onClick={() => alert("GIVE ME JOB PLEASE.🥺👉👈")}
+            lmaov={() => alert("GIVE ME JOB PLEASE.🥺👉👈")}
           />
         </div>
         <div
